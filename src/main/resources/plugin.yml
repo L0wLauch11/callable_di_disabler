@@ -1,0 +1,11 @@
+name: callable_di_disabler
+version: '${project.version}'
+main: me.lowlauch.callable_di_disabler.Main
+api-version: 1.19
+depend: [ LabyModAPI ]
+authors: [ lowlauch ]
+description: Can disable labymods damage indicator
+commands:
+  calldidisabler:
+    usage: /calldidisabler <for-player>
+    description: can disable labymods damage indicator
